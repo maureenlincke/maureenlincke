@@ -1,10 +1,10 @@
-import react from "react";
+import { Heading, VStack } from "@chakra-ui/react";
 
 const About = () => {
     return (
-        <div>
-            <h1>Hello World</h1>
-        </div>
+        <VStack>
+            <Heading>Maureen Lincke</Heading>
+        </VStack>
     )
 }
 
