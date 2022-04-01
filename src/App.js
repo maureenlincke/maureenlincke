@@ -9,6 +9,8 @@ import {
   Grid,
   theme,
 } from '@chakra-ui/react';
+import About from './components/About'
+import { Routes, Route } from 'react-router-dom';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 
 function App() {
@@ -19,18 +21,11 @@ function App() {
           <ColorModeSwitcher justifySelf="flex-end" />
           <VStack spacing={8}>
             
-            <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-            </Text>
-            <Link
-              color="teal.500"
-              href="https://chakra-ui.com"
-              fontSize="2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Chakra
-            </Link>
+          <Routes>
+            <>
+              <Route path='/about' render={(routeProps) => <About {...routeProps}/>}></Route>
+            </>
+          </Routes>
           </VStack>
         </Grid>
       </Box>
