@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 const About = () => {
     return (
-        <Container maxW='container.xl' p={0}>
-            <Flex h='50vh' py={20}>
+        <Container maxW='' >
+            <Flex h='100vh' py={20}>
                 <Box spacing={10} p={10} >
                     <Image borderRadius='full' src='https://i.ibb.co/16CvWW6/Capture-2.jpg' />
                 </Box>
