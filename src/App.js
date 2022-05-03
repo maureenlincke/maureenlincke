@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, VStack } from '@chakra-ui/react';
 import About from './components/About';
-import Skills from './components/Skills';
+import Skills from './components/skills/Skills';
 import { BrowserRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 
@@ -12,7 +12,7 @@ function App() {
       <Container>
         <VStack w={'100%'}>
           <About />
-          {/* <Skills /> */}
+          <Skills />
         </VStack>
       </Container>
     </BrowserRouter>

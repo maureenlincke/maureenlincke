@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Flex, Heading, VStack, Text, Box, Image } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
